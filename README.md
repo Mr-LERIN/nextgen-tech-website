@@ -1,3 +1,4 @@
+
 # NextGEN Technologies — Website
 
 Clean, modern, high-end multi-page site for **NextGEN Technologies** (nextGEN UX tech).
@@ -74,3 +75,14 @@ python3 -m http.server 3000
 - Wordmark: `assets/logo-wordmark.jpg` (nextGEN UX + tech pill)
 
 Both are used in header and footer (inverted in dark footer).
+=======
+- 👋 Hi, I’m @Mr-LERIN
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Mr-LERIN/Mr-LERIN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
