@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — NextGEN Technologies</title>
+  <meta name="description" content="Start a conversation with NextGEN Technologies. Tell us about the business problem you need solved." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo-mark.jpg" type="image/jpeg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link" aria-label="NextGEN Technologies home">
+        <img src="assets/logo-mark.jpg" alt="" class="logo-mark" width="36" height="36" />
+        <img src="assets/logo-wordmark.jpg" alt="nextGEN UX tech" class="logo-word" height="24" />
+      </a>
+      <nav class="nav-desktop" aria-label="Main">
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="index.html#industries" class="nav-link">Industries</a>
+        <a href="index.html#insights" class="nav-link">Insights</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="contact.html" class="btn-solid">Start a Conversation</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="index.html#industries">Industries</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-solid" style="margin-top:1rem;justify-content:center">Start a Conversation</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow mb-4 reveal">Contact</p>
+      <h1 class="h1 reveal reveal-delay-1" style="max-width:28rem">Start a conversation.</h1>
+      <p class="lead reveal reveal-delay-2" style="margin-top:1.5rem">Tell us about the problem you need solved. We’ll respond with clarity and next steps—no generic sales pitch.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;gap:4rem;align-items:start" class="contact-grid">
+        <div style="max-width:28rem">
+          <h2 class="h3 mb-4 reveal">What to expect</h2>
+          <ul style="list-style:none;padding:0" class="reveal reveal-delay-1">
+            <li style="display:flex;gap:0.75rem;margin-bottom:1.25rem">
+              <span style="flex-shrink:0;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--light);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700">1</span>
+              <span class="text-muted" style="font-size:0.9375rem;line-height:1.5">We read every message carefully and respond within 1–2 business days.</span>
+            </li>
+            <li style="display:flex;gap:0.75rem;margin-bottom:1.25rem">
+              <span style="flex-shrink:0;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--light);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700">2</span>
+              <span class="text-muted" style="font-size:0.9375rem;line-height:1.5">If there’s a fit, we’ll schedule a short discovery call focused on your problem—not a product demo.</span>
+            </li>
+            <li style="display:flex;gap:0.75rem">
+              <span style="flex-shrink:0;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--light);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700">3</span>
+              <span class="text-muted" style="font-size:0.9375rem;line-height:1.5">You’ll leave with clarity on approach, scope, and whether we are the right partner.</span>
+            </li>
+          </ul>
+          <div class="mt-12 reveal reveal-delay-2">
+            <p class="eyebrow mb-2">Direct</p>
+            <a href="mailto:hello@nextgentech.africa" style="font-weight:600;font-size:1.0625rem">hello@nextgentech.africa</a>
+            <p class="text-muted" style="font-size:0.875rem;margin-top:0.5rem">Africa · Remote-first & on-site</p>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1" style="background:var(--light);border-radius:1.5rem;padding:2rem">
+          <!-- 
+            FORMSPREE SETUP:
+            1. Go to https://formspree.io and create a form
+            2. Replace YOUR_FORM_ID below with your actual form ID
+            3. Example: action="https://formspree.io/f/xyzabcde"
+          -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-input" type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" type="email" id="email" name="email" required placeholder="you@company.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="organization">Organization</label>
+              <input class="form-input" type="text" id="organization" name="organization" placeholder="Company or institution" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="topic">What do you need help with?</label>
+              <select class="form-input" id="topic" name="topic">
+                <option value="">Select one…</option>
+                <option value="architecture">Technology Architecture & Software</option>
+                <option value="consulting">Transformation Consulting</option>
+                <option value="security">Cybersecurity & Assurance</option>
+                <option value="infrastructure">Infrastructure Engineering</option>
+                <option value="smart">Smart Technology Integration</option>
+                <option value="partnership">Ongoing Partnership / Managed Services</option>
+                <option value="other">Something else / Not sure yet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Tell us about the problem</label>
+              <textarea class="form-textarea" id="message" name="message" required placeholder="A few sentences on the challenge, context, and what success would look like…"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="NextGEN Technologies — New inquiry" />
+            <button type="submit" class="btn-dot-fill" style="width:100%;justify-content:center">
+              <span class="dot"></span>
+              <span class="label">Send message</span>
+              <span class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              <span class="fill"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo"><img src="assets/logo-mark.jpg" alt="" class="mark" width="32" height="32" /><img src="assets/logo-wordmark.jpg" alt="nextGEN UX tech" class="word" height="20" /></div>
+          <p style="font-size:0.875rem;line-height:1.6;max-width:20rem">Technology architects, transformation consultants, cybersecurity specialists, infrastructure engineers, and smart technology integrators—working under one roof for organizations across Africa.</p>
+        </div>
+        <div><p class="footer-heading">Navigate</p><div class="footer-links"><a href="about.html">About</a><a href="services.html">Services</a><a href="index.html#industries">Industries</a><a href="index.html#insights">Insights</a><a href="contact.html">Contact</a></div></div>
+        <div><p class="footer-heading">Contact</p><div class="footer-links"><a href="mailto:hello@nextgentech.africa">hello@nextgentech.africa</a><span style="display:block;padding:0.3rem 0;font-size:0.875rem;color:#737373">Africa · Remote-first & on-site</span></div></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 NextGEN Technologies. All rights reserved.</p><div class="flex gap-4"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
